@@ -85,10 +85,13 @@ could run:
 ```bash
 MainCli.exe --help
 ```
-Would provide output identical to
+which would provide output identical to
 [cmdliner](https://github.com/dbuenzli/cmdliner)'s help output. For
-an example, see `refmt --help`.
+an example, see `refmt --help`:
 
+![command line help](./images/refmt.png "Example Command Line Help")
+
+It could also generate man pages in your project's releases based on this.
 
 **Implementation:**
 - `@reason-native/pastel` is a good option for terminal highlighting.
@@ -116,3 +119,16 @@ an example, see `refmt --help`.
   [Revery](https://github.com/revery-ui/revery).
 - Instead of porting it line for line, you could also reimagine
   the same concept from the ground up.
+
+
+## One Click Native Project Creation/Updating
+
+**Active Efforts:**
+- [`pesy`](https://github.com/esy/pesy): Project by [Manas](https://github.com/prometheansacrifice) to make new native projects in a single command. Bonus: It will keep your project/build config up to date based on your config in `package.json` by running `esy pesy` from your project root. Makes use of great automatically created cross platform CI.
+
+
+## Full Native React:
+**Active Efforts:**
+- [Revery](https://github.com/revery-ui/revery) an Electron-style cross platform desktop app framework with full native React-style UI implementation based on [Brisk Reconciler](https://github.com/briskml/brisk-reconciler).
+![revery screenshot](./images/revery.png "Revery Screenshot")
+- [Revery Packager](https://github.com/revery-ui/revery-packager) One click packaging up of Revery UI applications into installable desktop apps.
