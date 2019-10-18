@@ -3,9 +3,10 @@
 > **Collection of project ideas for Reason which have been requested by
 people in the community.**
 
-People might already be working on some of these ideas. Links are
-included in this README. It's great to collaborate with people
-already working on some of these ideas.
+Links to active efforts are included in this README. It's great to
+collaborate with people already working on some of these ideas, or
+start your own thing. Send a PR to list your effort
+under the "Active Efforts:" section, so people know how to team up.
 
 Please discuss new project ideas on [The Reason Discord
 Channel](https://discordapp.com/invite/reasonml).
@@ -22,6 +23,22 @@ Simple APIs for doing web related requests/servers.
   server/client APIs.
 - [h2](https://github.com/anmonteiro/ocaml-h2) a full `HTTP/2`
   implementation in OCaml.
+  
+  
+## Cross-plat Universal Typeahead in Reason and Revery:
+
+- For reference: [Rofi](https://github.com/davatorium/rofi) is like a
+ supercharged `dmenu` replacement that exists, and is written in C++
+ (screenshot below).
+- One option is to port Rofi to a cross platform native app using
+  [Revery](https://github.com/revery-ui/revery). Line for line ports
+  are a great way to avoid bikeshedding and quickly get something out there.
+- Instead of porting it line for line, you could also reimagine
+  the same concept from the ground up.
+
+Example of Rofi Linux Package:
+![RofiScreenshot](https://53280.de/rofi/arc-red.png)
+
 
 ## Quality Bindings To libcurl
 
@@ -110,16 +127,6 @@ It could also generate man pages in your project's releases based on this.
 - [ppx_deriving_cmdliner](https://github.com/hammerlab/ppx_deriving_cmdliner)
   (doesn't use named arguments to generate command line API, but
   would be a good reference).
-
-## Rofi implementation in Reason and Revery:
-
-[Rofi](https://github.com/davatorium/rofi) is like a supercharged
-`dmenu` replacement.
-- Port Rofi to a cross platform native application using
-  [Revery](https://github.com/revery-ui/revery).
-- Instead of porting it line for line, you could also reimagine
-  the same concept from the ground up.
-
 
 ## One Click Native Project Creation/Updating
 
