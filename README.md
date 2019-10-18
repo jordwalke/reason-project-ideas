@@ -98,7 +98,7 @@ an example, see `refmt --help`.
 - Another feature would be to support an "enum" (variant) defined in
   the same file to represent the different string options.
 - A more advanced version might support using an approach like
-  [https://github.com/jaredly/milk](`milk`) to infer the types.
+  [`milk`](https://github.com/jaredly/milk) to infer the types.
   (Would require a bit of support from Milk to be usable for other
   purposes - so this would only make sense after `milk` is extended
   to support other use cases).
