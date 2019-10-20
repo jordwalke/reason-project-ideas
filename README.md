@@ -23,6 +23,7 @@ Simple APIs for doing web related requests/servers.
   server/client APIs.
 - [h2](https://github.com/anmonteiro/ocaml-h2) a full `HTTP/2`
   implementation in OCaml.
+- [httpkit](https://github.com/ostera/httpkit) high level http servers in ReasonML
   
   
 ## Cross-plat Universal Typeahead in Reason and Revery:
