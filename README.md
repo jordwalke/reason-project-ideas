@@ -54,6 +54,23 @@ libraries in OCaml.
 Rails-like scaffolding generator for certain kinds of apps. To avoid
 bikeshedding, you might even consider using the exact rails workflow.
 
+## Lightweight Universal Date/Time Library
+
+A lightweight date/time library that doesn't rely on system dependencies,
+and can configure all date conversions from config files. (Either at build
+time or runtime?)
+- Time (just the number of milliseconds since epoch).
+- TimeRange (two Time points).
+- DateTime (Human description of DateTime).
+- DateTimeZone (Human description of DateTime within a time zone).
+- Converting between all of these forms (based on some time zone data base config files).
+
+Date/Time experts, please contribute by pointing to excellent libraries
+and provide advice.
+
+Approaches:
+- Could just port line for line, one of the best date-time libraries out there.
+
 ## Java Backend
 
 The [`rehp`](https://github.com/jordwalke/rehp) project makes it
