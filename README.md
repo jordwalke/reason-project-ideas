@@ -70,6 +70,8 @@ and provide advice.
 
 Approaches:
 - Could just port line for line, one of the best date-time libraries out there.
+  - Joda-time is an good starting reference(and the inspiration for the java8 date/time api rewrite): https://www.joda.org/joda-time/
+
 
 ## Java Backend
 
