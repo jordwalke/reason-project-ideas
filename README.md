@@ -156,3 +156,10 @@ It could also generate man pages in your project's releases based on this.
 - [Revery](https://github.com/revery-ui/revery) an Electron-style cross platform desktop app framework with full native React-style UI implementation based on [Brisk Reconciler](https://github.com/briskml/brisk-reconciler).
 ![revery screenshot](./images/revery.png "Revery Screenshot")
 - [Revery Packager](https://github.com/revery-ui/revery-packager) One click packaging up of Revery UI applications into installable desktop apps.
+
+
+## Reason Browser Console Formatter:
+Print more readable structures in the browser for debugging purposes.
+
+**Active Efforts:**
+[reason-console-formatter](https://github.com/davesnx/reason-console-formatter)
