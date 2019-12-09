@@ -24,6 +24,8 @@ Simple APIs for doing web related requests/servers.
 - [h2](https://github.com/anmonteiro/ocaml-h2) a full `HTTP/2`
   implementation in OCaml.
 - [httpkit](https://github.com/ostera/httpkit) high level http servers in ReasonML
+- [opium](https://github.com/rgrinberg/opium) Sinatra like web toolkit for OCaml
+- [Routes](https://github.com/anuragsoni/routes) Typed routes for OCaml/ReasonML web applications (both native and client side via js_of_ocaml)
   
   
 ## Cross-plat Universal Typeahead in Reason and Revery:
