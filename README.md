@@ -18,6 +18,15 @@ Simple APIs for doing web related requests/servers.
   implement (even without implementation).
 - Creating basic implementations of web servers/clients.
 
+## The Universal Type Specification
+
+Write types in Reason .re files, generate various kinds of serializers and RPC frameworks based on them
+
+- Perhaps provide a plugin architecture for people to define new backends/languages/RPC interop.
+- Can convert to arbitrarily between formats.
+- Versioning built-in would be a great feature (take inspiration from [milk](https://github.com/jaredly/milk)'s versioning feature). Could start with Milk as a basis (but might want to remove the automatic type inference based on compiled output since the goal here is to have explicitly readable type definitions).
+- Ideally you would check in the generated serializers/deserializers into your codebase.
+
 **Active Efforts:**
 - [morph](https://github.com/reason-native-web/morph) simple web
   server/client APIs.
