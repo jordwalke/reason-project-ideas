@@ -18,6 +18,16 @@ Simple APIs for doing web related requests/servers.
   implement (even without implementation).
 - Creating basic implementations of web servers/clients.
 
+**Active Efforts:**
+
+- [morph](https://github.com/reason-native-web/morph) simple web
+  server/client APIs.
+- [h2](https://github.com/anmonteiro/ocaml-h2) a full `HTTP/2`
+  implementation in OCaml.
+- [opium](https://github.com/rgrinberg/opium) Sinatra like web toolkit for OCaml
+- [Routes](https://github.com/anuragsoni/routes) Typed routes for OCaml/ReasonML web applications (both native and client side via js_of_ocaml)
+- [ReWeb](https://github.com/yawaramin/re-web/) web framework for Reason/OCaml based on the httpaf stack
+
 ## The Universal Type Specification
 
 Write types in Reason .re files, generate various kinds of serializers and RPC frameworks based on them
@@ -25,17 +35,7 @@ Write types in Reason .re files, generate various kinds of serializers and RPC f
 - Perhaps provide a plugin architecture for people to define new backends/languages/RPC interop.
 - Can convert to arbitrarily between formats.
 - Versioning built-in would be a great feature (take inspiration from [milk](https://github.com/jaredly/milk)'s versioning feature). Could start with Milk as a basis (but might want to remove the automatic type inference based on compiled output since the goal here is to have explicitly readable type definitions).
-- Ideally you would check in the generated serializers/deserializers into your codebase.
-
-**Active Efforts:**
-- [morph](https://github.com/reason-native-web/morph) simple web
-  server/client APIs.
-- [h2](https://github.com/anmonteiro/ocaml-h2) a full `HTTP/2`
-  implementation in OCaml.
-- [httpkit](https://github.com/ostera/httpkit) high level http servers in ReasonML
-- [opium](https://github.com/rgrinberg/opium) Sinatra like web toolkit for OCaml
-- [Routes](https://github.com/anuragsoni/routes) Typed routes for OCaml/ReasonML web applications (both native and client side via js_of_ocaml)
-  
+- Ideally you would check in the generated serializers/deserializers into your codebase.  
   
 ## Cross-plat Universal Typeahead in Reason and Revery:
 
