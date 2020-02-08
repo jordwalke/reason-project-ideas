@@ -183,5 +183,5 @@ Print more readable structures in the browser for debugging purposes.
 Design pages in JSX and output a static HTML website.
 
 **Active Efforts:**
-- [TyXML](https://github.com/ocsigen/tyxml) a library for building valid HTML and SVG ([Open PR for JSX support](https://github.com/ocsigen/tyxml/pull/254))
+- [TyXML](https://github.com/ocsigen/tyxml) a library for building valid HTML and SVG
 - [Canopy](https://github.com/Engil/Canopy) a blog engine powered by git and OCaml.
