@@ -83,7 +83,11 @@ and provide advice.
 Approaches:
 - Could just port line for line, one of the best date-time libraries out there.
   - Joda-time is an good starting reference(and the inspiration for the java8 date/time api rewrite): https://www.joda.org/joda-time/
-
+  - [Chronology](https://github.com/davedelong/Chronology) is a Swift library with a [more nuanced approach](https://github.com/davedelong/chronology/wiki/Foundation's-API) to dates.
+  
+**Related Effort:**
+- [ptime](https://github.com/dbuenzli/ptime)
+  (It is pretty bare-bones but should have the right primitives). 
 
 ## Java Backend
 
