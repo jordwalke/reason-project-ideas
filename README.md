@@ -11,6 +11,13 @@ under the "Active Efforts:" section, so people know how to team up.
 Please discuss new project ideas on [The Reason Discord
 Channel](https://discordapp.com/invite/reasonml).
 
+## Good first project
+### update-notifier
+Inspiration: https://www.npmjs.com/package/update-notifier
+![Inspiration](https://cdn.discordapp.com/attachments/643515198497488948/680535642928971788/unknown.png)
+
+It is in JS, a similar functionnality for [OPAM](https://opam.ocaml.org) or [esy](https://esy.sh) written in OCaml could be a plus.
+
 ## High Level Web Server/Client APIs
 
 Simple APIs for doing web related requests/servers.
