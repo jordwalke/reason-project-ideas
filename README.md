@@ -49,6 +49,7 @@ Write types in Reason .re files, generate various kinds of serializers and RPC f
   the same concept from the ground up.
 
 Example of Rofi Linux Package:
+
 ![RofiScreenshot](https://53280.de/rofi/arc-red.png)
 
 ## Cross-plat Universal `TextInput.h`:
