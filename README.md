@@ -184,3 +184,11 @@ Print more readable structures in the browser for debugging purposes.
 
 **Active Efforts:**
 [reason-console-formatter](https://github.com/davesnx/reason-console-formatter)
+
+## Static Site Generator
+
+Design pages in JSX and output a static HTML website.
+
+**Active Efforts:**
+- [TyXML](https://github.com/ocsigen/tyxml) a library for building valid HTML and SVG
+- [Canopy](https://github.com/Engil/Canopy) a blog engine powered by git and OCaml.
