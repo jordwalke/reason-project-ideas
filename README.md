@@ -11,13 +11,6 @@ under the "Active Efforts:" section, so people know how to team up.
 Please discuss new project ideas on [The Reason Discord
 Channel](https://discordapp.com/invite/reasonml).
 
-## Good first project
-### update-notifier
-Inspiration: https://www.npmjs.com/package/update-notifier
-![Inspiration](https://cdn.discordapp.com/attachments/643515198497488948/680535642928971788/unknown.png)
-
-It is in JS, a similar functionnality for [OPAM](https://opam.ocaml.org) or [esy](https://esy.sh) written in OCaml could be a plus.
-
 ## High Level Web Server/Client APIs
 
 Simple APIs for doing web related requests/servers.
@@ -58,6 +51,22 @@ Write types in Reason .re files, generate various kinds of serializers and RPC f
 Example of Rofi Linux Package:
 ![RofiScreenshot](https://53280.de/rofi/arc-red.png)
 
+## Cross-plat Universal `TextInput.h`:
+A small C library ideally (with some bindings from Reason/OCaml to it) that will create a
+native platform text input on any platform and render it wherever you tell it to within the
+window. Native rendering frameworks like Revery can do its own drawing/compositing, including
+the drawing of the "text input" border/background color, and then this native `TextInput.h`
+could be placed on top of this region with transparent background color. This achieves totally
+native text input/selection/keyboard(important for mobile). Once the text editing is done,
+somehow "transfer" the ownership of rendering the entered text back to the drawing framework,
+and remove the transparent text input overlayed on top of the screen.
+
+- Idea: Take whatever WebKit(as in Safari) does (not Chromium because iOS Chrome isn't
+  actually Chrome - it's webkit). Webkit runs on iOS, Mac, Linux, and Windows so it must
+  have handled the input for all of these platforms.
+- Downsides: This universal approach cannot perfectly integrate into custom renderers.
+  You probably couldn't clip the text input while typing etc, but this seems like a pretty
+  rare use case.
 
 ## Quality Bindings To libcurl
 
@@ -66,6 +75,13 @@ libraries in OCaml.
 
 **Active Efforts:**
 - [`ocurl`](https://github.com/ygrek/ocurl)
+
+## Good first project
+### update-notifier
+Inspiration: https://www.npmjs.com/package/update-notifier
+![Inspiration](https://cdn.discordapp.com/attachments/643515198497488948/680535642928971788/unknown.png)
+
+It is in JS, a similar functionnality for [OPAM](https://opam.ocaml.org) or [esy](https://esy.sh) written in OCaml could be a plus.
 
 
 ## Reason On Rails
